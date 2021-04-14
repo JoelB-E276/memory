@@ -4,16 +4,33 @@ document.getElementById("card1").style.backgroundColor = "black";
 }); 
 
 // random color 
-
-function getRandomColor(color) {
-    var colors = ["red","red","black","black","yellow","yellow","blueviolet","blueviolet","aqua","aqua", "coral", "coral","gray","gray"]
+var colors = ["red","red","black","black","yellow","yellow","blueviolet","blueviolet","aqua","aqua", "coral", "coral","gray","gray"]
     var cardsColor = [];
+function getRandomColor(color) {
+    
     for (var i = 0; i < colors.length; i++) {
     cardsColor+= colors[Math.floor(Math.random() * colors.length)]; 
-   
-    [i].push[cardsColor]
+   ////////////////////////////////////////
+   ///////////////////////////////////////
+   ////////////////////////////////////////
+   ////////////////////////////////////////
+
+     ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+      ////// P U L L //////////////  ////// P U L L //////////
+
+
+
       
+      //[i].push[cardsColor]
+      cardsColor.push(colors);
       console.log(cardsColor);
+      console.log(colors);
     }
     return cardsColor
   } ;
@@ -21,4 +38,10 @@ function getRandomColor(color) {
 let choiceColor = getRandomColor (color);
 
 let allcard=document.querySelectorAll("card");
-allcard.color
+
+function assemble (cardsColor,allcard){
+  for (allcard = 0; allcard < cardsColor.length; i++)
+  allcard.push(cardsColor)
+  console.log(allcard);
+}
+
