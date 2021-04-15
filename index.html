@@ -24,87 +24,93 @@
 
 <body>
 
-<header> 
- <h1>Memory Game</h1>
-  
+  <div class="menu">
+    <a type="button" class="btn active" href="index.html">Play again</a>
+  </div>
+ 
+<header>  
+   <div><img id="pictHead" class="img-fluid" src="img/pngegg(1).png" alt="coins"></div>
+  <h1>Memory Game</h1>
 </header>
 
-<section id="section1" class="container-fluid">
- <div class="row justify-content-around">
-  <div class="card" id="card1" style="width: 10rem;" >
-  <div class="card-body" id="hiddenCard">
-  </div>
- </div>
-
-  <div id="card2"class="card" style="width: 10rem;" >
-    <img src="..." class="card-img-top" alt="hidden card">
-    <div class="card-body" id="hiddenCard">
-    </div>
-  </div>
-
-  <div class="card" style="width: 10rem;">
-    <img src="..." class="card-img-top" alt="hidden card">
-    <div class="card-body" id="hiddenCard">
-    </div>
-  </div>
-  <div class="card" style="width: 10rem;"> 
-    <img src="..." class="card-img-top" alt="hidden card">
-    <div class="card-body" id="hiddenCard">
-    </div>
-  </div>
-  <div class="card" style="width: 10rem;">
-    <img src="..." class="card-img-top" alt="hidden card">
-    <div class="card-body" id="hiddenCard">
-    </div>
-  </div>
-  <div class="card" style="width: 10rem;">
-    <img src="..." class="card-img-top" alt="hidden card">
-    <div class="card-body" id="hiddenCard">
-    </div>
-  </div>
-  </div>
-  </div>
- </section>
-
- <section id="section2" class="container-fluid">
+<main>
+  <section id="section1" class="container-fluid">
   <div class="row justify-content-around">
-    <div class="card" style="width: 10rem;">
-      <img src="" class="card-img-top" alt="hidden card">
-      <div class="card-body" id="hiddenCard">
-      </div>
+    <div class="card" id="card1">
+    <div class="card-body" id="hiddenCard">
     </div>
-    <div class="card" style="width: 10rem;">
-      <img src="..." class="card-img-top" alt="hidden card">
-      <div class="card-body" id="hiddenCard">
-      </div>
-    </div>
-    <div class="card" style="width: 10rem;">
-      <img src="..." class="card-img-top" alt="hidden card">
-      <div class="card-body" id="hiddenCard">
-      </div>
-    </div>
-    <div class="card" style="width: 10rem;">
-      <img src="..." class="card-img-top" alt="hidden card">
-      <div class="card-body" id="hiddenCard">
-      </div>
-    </div>
-    <div class="card" style="width: 10rem;">
-      <img src="..." class="card-img-top" alt="hidden card">
-      <div class="card-body" id="hiddenCard">
-      </div>
-    </div>
-    <div class="card" style="width: 10rem;">
-      <img src="..." class="card-img-top" alt="hidden card">
-      <div class="card-body" id="hiddenCard">
-      </div>
-    </div>
-</div>
-</section>
+  </div>
 
+    <div id="card2"class="card">
+      <img src="" class="card-img-top">
+      <div class="card-body" id="hiddenCard">
+      </div>
+    </div>
 
-<footer>
+    <div class="card">
+      <img src="" class="card-img-top">
+      <div class="card-body" id="hiddenCard">
+      </div>
+    </div>
+    <div class="card"> 
+      <img src="" class="card-img-top">
+      <div class="card-body" id="hiddenCard">
+      </div>
+    </div>
+    <div class="card">
+      <img src="" class="card-img-top">
+      <div class="card-body" id="hiddenCard">
+      </div>
+    </div>
+    <div class="card">
+      <img src="" class="card-img-top">
+      <div class="card-body" id="hiddenCard">
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
 
-  <h3>Memory Game</h3>
+  <section id="section2" class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="card">
+        <img src="" class="card-img-top">
+        <div class="card-body" id="hiddenCard">
+        </div>
+      </div>
+      <div class="card" >
+        <img src="" class="card-img-top">
+        <div class="card-body" id="hiddenCard">
+        </div>
+      </div>
+      <div class="card">
+        <img src="" class="card-img-top">
+        <div class="card-body" id="hiddenCard">
+        </div>
+      </div>
+      <div class="card">
+        <img src="" class="card-img-top">
+        <div class="card-body" id="hiddenCard">
+        </div>
+      </div>
+      <div class="card">
+        <img src="" class="card-img-top">
+        <div class="card-body" id="hiddenCard">
+        </div>
+      </div>
+      <div class="card">
+        <img src="" class="card-img-top">
+        <div class="card-body" id="hiddenCard">
+        </div>
+      </div>
+  </div>
+  </section>
+  <div><img id="pictFooter" class="img-fluid" src="img/pngegg.png" alt="coins"></div>
+  <div><img id="pictFooter2" class="img-fluidd" src="img/klipartz.com.png"alt="cards"> </div>
+</main>
+
+<footer class="d-none d-lg-block">
+  
 </footer>
 
 
@@ -120,12 +126,12 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
 </body>
 
 </html>
