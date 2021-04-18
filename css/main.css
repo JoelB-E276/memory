@@ -95,23 +95,27 @@ body{
 }
 
 main{
-  border-color: antiquewhite;
   border: 25px;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../img/Free\ Roulette\ Table\ Vector-01.jpg )
 }
-.menu{
-  background-color: rgb(184, 12, 12);
+.top{
+  margin-bottom: 4vh;
+} 
+#btn, .top{
+  background-color: rgb(160, 9, 9);
 }
+
 header{
   background-color: #000000;
   height: 10vh;
-  
 }
 h1{
-  text-align: center;
-  color:rgb(160, 9, 9)
+  
+  
+  color:rgb(160, 9, 9);
+  
 }
 footer{
   background-color: rgb(160,9,9);
@@ -120,22 +124,19 @@ footer{
 }
 #pictHead{
   float: right;
-  width: 30vh;
-  padding-left: 20vh;
-  z-index: 10;
+  width: 10vh;
+  
 }
 #pictFooter{
-  text-align: left;
   float: left;
-  width: 25vh;
-  z-index: 20;
+  width: 15vh;
 }
 #pictFooter2{
-  width: 25vh;;
+  width: 20vh;;
   float: right;
 }
 div.card{
-  background:linear-gradient(#333232, black);
+  /*background:linear-gradient(#333232, black);*/
   border-radius: 8vh / 10vh;
   border-color: rgb(156, 5, 5) ;
   margin-bottom: 8vh;
@@ -144,16 +145,31 @@ div.card{
   width: 15vh;
   max-height: 25vh;
 }
+.styleCard{
+  background-color: black;
+  border-radius: 8vh / 10vh;
+  border-color: rgb(156, 5, 5) ;
+  margin-bottom: 8vh;
+  margin-top: 8vh;
+  height: 20vh;
+  width: 15vh;
+  max-height: 25vh;
+
+}
 @media screen and (min-width: 640px){
-  .card {
-    width: 25vh;
+.card {
+   width: 25vh;
   }
 }
 @media screen and (max-width: 640px){
-  .card {
-    max-width: 15vh;
-  }
+.card {
+   max-width: 15vh;
+      }
+#pictFooter , #pictFooter2{
+  display: none;
 }
+}
+
 
 
 
