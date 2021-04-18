@@ -93,7 +93,6 @@ textarea {
 body{
   background-color: rgb(3, 109, 56);
 }
-
 main{
   border: 25px;
   background-position: center;
@@ -106,16 +105,13 @@ main{
 #btn, .top{
   background-color: rgb(160, 9, 9);
 }
-
 header{
   background-color: #000000;
   height: 10vh;
 }
 h1{
-  
-  
-  color:rgb(160, 9, 9);
-  
+ color:rgb(160, 9, 9);
+ 
 }
 footer{
   background-color: rgb(160,9,9);
@@ -137,6 +133,7 @@ footer{
 }
 div.card{
   /*background:linear-gradient(#333232, black);*/
+  background-color: black; 
   border-radius: 8vh / 10vh;
   border-color: rgb(156, 5, 5) ;
   margin-bottom: 8vh;
@@ -146,7 +143,6 @@ div.card{
   max-height: 25vh;
 }
 .styleCard{
-  background-color: black;
   border-radius: 8vh / 10vh;
   border-color: rgb(156, 5, 5) ;
   margin-bottom: 8vh;
